@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/chensj1901/AdsMoGo-iOS-Lib"
   s.license      = "MIT (example)"
   s.author             = { "chensj1901" => "email@address.com" }
-  s.platform     = :ios, "6.0"
+  s.platform     = :ios, "5.0"
   s.source       = { :git => "https://github.com/chensj1901/AdsMoGo-iOS-Lib.git", :tag => "1.0.0" }
   s.source_files  = "AdsMoGoSDK/*.{h,m}"
   s.public_header_files = "AdsMoGoSDK/*.h"
