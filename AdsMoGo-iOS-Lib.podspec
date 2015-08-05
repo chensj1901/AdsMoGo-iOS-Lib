@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.resources = "AdsMoGoRes/*.png","AdsMoGoRes/**/*.png"
 
   s.frameworks = PassKit","AddressBook","Foundation","UIKit","CoreGraphics","QuartzCore","SystemConfiguration","CoreTelephony","CoreLocation","AudioToolbox","MessageUI","MapKit","MediaPlayer","AVFoundation","CoreMotion","CoreAudio","CoreMedia","MobileCoreServices","CFNetwork","Security","ImageIO","EventKit","EventKitUI","CoreData","StoreKit","Social","Accelerate","CoreText","iAd","CoreImage","AssetsLibrary","CoreFoundation"
-  s.weak_frameworks = "AdSupport",GameController"
+  s.weak_frameworks = "AdSupport","GameController"
   s.libraries = "iconv", "sqlite3","sqlite3.0","z","z.1.2.5","stdc++","xml2"
   s.ios.vendored_library =  "AdsMoGoSDK/*.a"
   s.requires_arc = false
